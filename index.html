@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./outra pasta/outroarquivo.css">
-    <title>Novo Documento</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  
+  <!-- resposividade --> 
+  <link rel="stylesheet" href="style/responsive.css">
+
+
+  <!-- owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+  <title>Clone NetFlix</title>
 </head>
 <body>
-    
-    <div class="painel"><img src="https://hermes.digitalinnovation.one/home/card-03-hover.png" alt="nova imagem"></div>
+ 
+    <header>
+      <div class="container">
+        <a href="https://www.linkedin.com/in/paulmspessoa/" target="_blank"><img id="sizelogo" src="/img/logo.png" alt="Clone NetFlix"></a>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Documentários</a>
+        </nav>
+      </div>
+    </header>
+ 
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+            <h3 class="titulo"> JOVEM SHELDON</h3>
+            <p class="descricao">Para Sheldon, infância não é nada fácil. Um gênio da matemática e das ciências, enfrenta dificuldades no cotidiano e uma família 'normal' que busca uma forma de lidar com ele. Assista agora a nova temporada que está imperdível.</p>
+            <div>
+              <a href="https://www.youtube.com/watch?v=Yc8AY_1h70s" target="_blank"><button role="button" class="botao" > <i class="fas fa-play"></i>ASSISTIR AGORA</button>
+              </a>
+              <a href="https://www.themoviedb.org/tv/71728-young-sheldon?language=pt-BR" target="_blank"><button role="button" class="botao"> <i class="fas fa-info-circle"></i> </i>MAIS INFORMAÇÕES</button>
+              </a>      
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=TZKEyJrl8HY" target="_blank"><img class="box-filme" src="img/mini1.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=sj9J2ecsSpo" target="_blank"><img class="box-filme" src="img/mini2.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=HxtLlByaYTc" target="_blank"><img class="box-filme" src="img/mini3.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=YWcYBdORa-M" target="_blank"><img class="box-filme" src="img/mini4.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=ZHaokMTWgdY" target="_blank"><img class="box-filme" src="img/mini5.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=uWh5JdynBUM" target="_blank"><img class="box-filme" src="img/mini6.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=tUeo0RZN9kM" target="_blank"><img class="box-filme" src="img/mini7.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=DB8x81nL8B0" target="_blank"><img class="box-filme" src="img/mini8.jpg" alt=""></a>
+          </div>
+          <div class="item">
+              <a href="https://www.youtube.com/watch?v=X4bF_quwNtw" target="_blank"><img class="box-filme" src="img/mini9.jpg" alt=""></a>
+          </div>      
+        </div>
+    </div>
+
+  <script src="https://kit.fontawesome.com/25d40f4595.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+
+  
+ 
+ <!-- Bibliotecas utilizadas
+
+https://www.themoviedb.org/
+https://fontawesome.com/
+https://owlcarousel2.github.io/OwlCarousel2/
+
+-->
+
 </body>
 </html>
