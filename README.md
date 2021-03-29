@@ -13,4 +13,4 @@ https://owlcarousel2.github.io/OwlCarousel2/<br>
 
 Projeto desenvolvido com conteúdos da Digital Innovation One
 
-![](img/imagem-pagina.jpg)
+![](img/imagem-pagina.png)
